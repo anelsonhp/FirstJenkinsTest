@@ -16,4 +16,15 @@
       </resource>
     </resources>
   </build>
+  <modules>
+    <module>MyTests</module>
+  </modules>
+  <dependencies>
+    <dependency>
+      <groupId>FirstJenkinsTest</groupId>
+      <artifactId>MyTests</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <type>jar</type>
+    </dependency>
+  </dependencies>
 </project>
