@@ -1,5 +1,7 @@
 package mytests;
 
+import org.apache.commons.codec.digest.DigestUtils;
+
 public class Jenkins {
   
   public static void main(String[] args) {
@@ -11,6 +13,6 @@ public class Jenkins {
   }
   
   public void print() {
-    System.out.println("TEST");
+    System.out.println(DigestUtils.sha256Hex("TEST"));
   }
 }
