@@ -13,6 +13,6 @@ public class Jenkins {
   }
   
   public void print() {
-    System.out.println(DigestUtils.sha256Hex("TESTTEST"));
+    System.out.println(DigestUtils.sha256Hex("TESTTEST2"));
   }
 }
