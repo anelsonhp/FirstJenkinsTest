@@ -14,7 +14,7 @@ public class Jenkins {
   }
   
   public void print() {
-    DiskFileItemFactory factory  = new DiskFileItemFactor();
+    DiskFileItemFactory factory  = new DiskFileItemFactor(); 
     System.out.println(DigestUtils.sha256Hex("TESTTEST2"));
   }
 }
